@@ -36,11 +36,10 @@ function SimpleSlider() {
   function SampleNextArrow(props: any) {
     const { className, style, onClick } = props;
     return (
-      <div
-        className={className}
-        style={{ ...style, display: "block", background: "red" }}
-        onClick={onClick}
-      />
+      <div onClick={onClick} className="absolute top-[50%] z-10 translate-[0_-50%] right-[5%]">
+        <MdArrowForwardIos size={32} />
+
+      </div>
     );
   }
   
