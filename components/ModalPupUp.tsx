@@ -12,7 +12,7 @@ const ModalPopUp = () => {
     useEffect(() => {
         const timer = setTimeout(() => {
             closeModal();
-        }, 3000);
+        }, 300000);
 
         return () => {
             clearTimeout(timer);
@@ -42,7 +42,7 @@ const ModalPopUp = () => {
                             </button>
                         </div>
                         <div className="flex bg-white justify-center">
-                            <div className="w-1/2 hidden md:block md:bg-image-popup bg-origin-border md:h-[500px] md:min-w-[400px] bg-left bg-contain bg-no-repeat">
+                            <div className="w-1/2 hidden md:block md:bg-image-popup z-10 bg-origin-border md:h-[500px] md:min-w-[400px] bg-left bg-contain bg-no-repeat">
                             </div>
                             <div className="w-1/2 h-auto p-4 text-center items-center self-center flex flex-col gap-3">
                                 <span className="flex justify-center"><PiEnvelopeSimpleLight size={28}/></span>
