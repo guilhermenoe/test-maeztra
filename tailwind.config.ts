@@ -16,8 +16,8 @@ const config: Config = {
         'mulher-desktop': "url('/banner-desktop.png')",
         'new-collection-mobile': "url('/banner-footer-mobile.png')",
         'new-collection-desktop': "url('/banner-footer-desktop.png')",
-        'logo-maeztra': "url('/logo-maeztra.png')",
-        'image-popup': "url('/image-popup.png')"
+        'image-popup': "url('/image-popup.png')",
+        'logo-maeztra': "url('/logo-maeztra.png')"
 
       },
     },
