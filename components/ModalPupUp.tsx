@@ -1,6 +1,7 @@
 "use client";
 import { PiEnvelopeSimpleLight } from "react-icons/pi";
 import { useState, useEffect } from 'react';
+import Image from "next/image";
 
 const ModalPopUp = () => {
     const [showModal, setShowModal] = useState(true);
@@ -42,13 +43,14 @@ const ModalPopUp = () => {
                             </button>
                         </div>
                         <div className="flex bg-white justify-center">
-                            <div className="w-1/2 hidden md:block md:bg-image-popup z-10 bg-origin-border md:h-[500px] md:min-w-[400px] bg-left bg-contain bg-no-repeat">
+                            <div className="w-1/2 hidden md:block z-10 bg-origin-border md:h-[500px] md:min-w-[400px] bg-left bg-contain bg-no-repeat">
+                                <Image className="mx-auto rounded-sm" src="/Image-popup.png" alt="Logo da empresa Maeztra" width={400} height={500} />
                             </div>
                             <div className="w-1/2 h-auto p-4 text-center items-center self-center flex flex-col gap-3">
-                                <span className="flex justify-center"><PiEnvelopeSimpleLight size={28}/></span>
+                                <span className="flex justify-center"><PiEnvelopeSimpleLight size={28} /></span>
                                 <p className="text-gray-600 text-center text-xs uppercase ">Bem Vindo à MAEZTRA</p>
                                 <h3 className="text-gray-700 text-xl">Receba em Primeira mão <br /><span className="font-bold">desconto e ofertas exclusivas</span></h3>
-                                <input 
+                                <input
                                     type="text"
                                     placeholder="Digite seu e-mail"
                                     className="w-[320px] p-2 border rounded-xl border-gray-300"

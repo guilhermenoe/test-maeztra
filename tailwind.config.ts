@@ -18,7 +18,6 @@ const config: Config = {
         'new-collection-desktop': "url('/banner-footer-desktop.png')",
         'image-popup': "url('/image-popup.png')",
         'logo-maeztra': "url('/logo-maeztra.png')"
-
       },
     },
   },
