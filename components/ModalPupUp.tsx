@@ -13,7 +13,7 @@ const ModalPopUp = () => {
     useEffect(() => {
         const timer = setTimeout(() => {
             closeModal();
-        }, 300000);
+        }, 8000);
 
         return () => {
             clearTimeout(timer);
