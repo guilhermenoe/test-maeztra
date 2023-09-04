@@ -44,7 +44,7 @@ const ModalPopUp = () => {
                         </div>
                         <div className="flex bg-white justify-center">
                             <div className="w-1/2 hidden md:block z-10 bg-origin-border md:h-[500px] md:min-w-[400px] bg-left bg-contain bg-no-repeat">
-                                <Image className="mx-auto rounded-sm" src="./Image-popup.png" alt="Logo da empresa Maeztra" width={400} height={500} />
+                                <Image className="mx-auto rounded-sm" src="./Image-popup.png" alt="Esportista amarrando o cadarço" width={400} height={500} />
                             </div>
                             <div className="w-1/2 h-auto p-4 text-center items-center self-center flex flex-col gap-3">
                                 <span className="flex justify-center"><PiEnvelopeSimpleLight size={28} /></span>

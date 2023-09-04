@@ -53,7 +53,7 @@ const Services = () => {
                 <div>
                     <div className="flex gap-5 h-16 bg-slate-200 items-center justify-center w-72 mx-auto rounded-lg">
                         <div>
-                            <Image src="./planeta.png" alt="Logo da empresa Maeztra" width={32} height={32} />
+                            <Image src="./planeta.png" alt="Icone Planeta Terra" width={32} height={32} />
                         </div>
                         <div>
                             <p className="text-sm font-bold not-italic">Produtos importados</p>
@@ -66,7 +66,7 @@ const Services = () => {
 
                     <div className="flex gap-5 h-16 bg-slate-200 items-center justify-center w-72 mx-auto rounded-lg">
                         <div>
-                            <Image src="./casa.png" alt="Logo da empresa Maeztra" width={32} height={32} />
+                            <Image src="./casa.png" alt="Icone Casa" width={32} height={32} />
                         </div>
                         <div>
                             <p className="text-sm font-bold not-italic">Estoque no Brazil</p>
@@ -79,7 +79,7 @@ const Services = () => {
 
                     <div className="flex gap-5 h-16 bg-slate-200 items-center justify-center w-72 mx-auto rounded-lg">
                         <div>
-                            <Image src="./caixa.png" alt="Logo da empresa Maeztra" width={32} height={32} />
+                            <Image src="./caixa.png" alt="Icone Caixa" width={32} height={32} />
                         </div>
                         <div>
                             <p className="text-sm font-bold not-italic">Trocas Garantidas</p>
@@ -91,7 +91,7 @@ const Services = () => {
                 <div>
                     <div className="flex gap-5 h-16 bg-slate-200 items-center justify-center w-72 mx-auto rounded-lg">
                         <div>
-                            <Image src="./cupom.png" alt="Logo da empresa Maeztra" width={32} height={32} />
+                            <Image src="./cupom.png" alt="Icone Cupom" width={32} height={32} />
                         </div>
                         <div>
                             <p className="text-sm font-bold not-italic">Ganhe 5% off</p>
@@ -104,7 +104,7 @@ const Services = () => {
                 <div>
                     <div className="flex gap-5 h-16 bg-slate-200 items-center justify-center w-72 mx-auto rounded-lg">
                         <div>
-                            <Image src="./caminhao.png" alt="Logo da empresa Maeztra" width={32} height={32} />
+                            <Image src="./caminhao.png" alt="Icone Caminhão" width={32} height={32} />
                         </div>
                         <div>
                             <p className="text-sm font-bold not-italic">Frete Grátis</p>
