@@ -55,7 +55,7 @@ const ModalPopUp = () => {
                                     placeholder="Digite seu e-mail"
                                     className="w-[320px] p-2 border rounded-xl border-gray-300"
                                 />
-                                <button className="w-[320px] mt-4 bg-primary text-white p-3 rounded-xl hover:bg-secondary text-xs font-bold uppercase">
+                                <button className="w-[320px] hover:bg-primary/80 mt-4 bg-primary text-white p-3 rounded-xl hover:bg-secondary text-xs font-bold uppercase">
                                     Enviar
                                 </button>
                             </div>

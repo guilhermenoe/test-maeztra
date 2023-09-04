@@ -58,7 +58,7 @@ function SimpleSlider() {
   return (
     <div className="mx-auto w-full">
       <Slider {...settings}>
-        <div className=" w-full relative bg-mulher-mobile bg-cover bg-right md:bg-mulher-desktop">
+        <div className=" w-full relative bg-mulher-mobile bg-cover bg-bottom md:bg-no-repeat md:bg-[center_top_1rem] md:bg-mulher-desktop">
           <div className="px-4 text-start bottom-0 flex flex-col gap-5 min-h-[400px] justify-end mb-16 md:ml-28 md:mb-20">
             <h3 className="text-white text-4xl not-italic font-bold">
               Promoções de Outono
@@ -66,12 +66,12 @@ function SimpleSlider() {
             <p className="text-white text-base not-italic">
               Confira os melhores looks para combinar com você nesse Outono
             </p>
-            <button className="w-fit px-3 py-1 rounded-sm bg-primary text-white font-bold">
+            <button className="w-fit px-3 py-1 rounded-sm hover:bg-primary/80 bg-primary text-white font-bold">
               Conferir
             </button>
           </div>
         </div>
-        <div className=" w-full relative bg-mulher-mobile bg-cover bg-right md:bg-mulher-desktop">
+        <div className=" w-full relative bg-mulher-mobile bg-cover bg-bottom md:bg-no-repeat md:bg-[center_top_1rem] md:bg-mulher-desktop">
           <div className="px-4 text-start bottom-0 flex flex-col gap-5 min-h-[400px] justify-end mb-16 md:ml-28 md:mb-20">
             <h3 className="text-white text-4xl not-italic font-bold">
               Promoções de Outono

@@ -14,7 +14,7 @@ const AccountGroup: React.FC = () => {
                 <FaRegHeart size={18} />
                 <span className="hidden md:block">Favoritos </span>
             </button>
-            <button className="whitespace-nowrap py-3 px-4 rounded-lg border border-primary hidden md:flex items-center gap-2">
+            <button className="whitespace-nowrap py-3 px-4 rounded-lg border hover:bg-primary/80 border-primary hidden md:flex items-center gap-2">
                 <LiaShoppingBagSolid size={18} />
                 <span>Meu Carrinho </span>
             </button>

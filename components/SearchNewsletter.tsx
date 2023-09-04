@@ -5,7 +5,7 @@ const SearchNewsletter = () => {
                 <input type="search" className="h-full bg-transparent placeholder:text-slate-700 text-sm " placeholder="Digite seu e-mail" />
             </div>
             <div>
-                <button type="button" className="h-full rounded-md bg-primary text-white text-sm px-8 md:px-10">Enviar</button>
+                <button type="button" className="h-full hover:bg-primary/80 rounded-md bg-primary text-white text-sm px-8 md:px-10">Enviar</button>
             </div>
         </div>
     );

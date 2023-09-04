@@ -57,7 +57,20 @@ const ShelfProduct = () => {
                         <p className="text-slate-700 text-xl font-bold">R$ 500,00</p>
                         <p className="text-slate-700 text-base">Faux Suede Mini Skirt</p>
                         <p className="text-slate-700/50 text-xs">A faux suede mini skirt featuring exposed button-front closures and panel seam construction.</p>
-                        <button className="bg-primary text-white w-full h-9 rounded-lg">Adicionar</button>
+                        <button className="bg-primary hover:bg-primary/80 text-white w-full h-9 rounded-lg">Adicionar</button>
+                    </div>
+                </div>
+
+                <div>
+                    <div className="flex flex-col px-4">
+                        <Image className="mx-auto rounded-sm" src="./produto02.png" alt="Vestido feminino" width={308} height={465} />
+                    </div>
+                    <div className="w-56 mx-auto mt-2 flex flex-col gap-2 justify-start">
+                        <Image className="" src="./produtocores2.png" alt="Cores disponiveis para roupa" width={132} height={27} />
+                        <p className="text-slate-700 text-xl font-bold">R$ 320,00</p>
+                        <p className="text-slate-700 text-base">Faux Suede Mini Skirt</p>
+                        <p className="text-slate-700/50 text-xs">A faux suede mini skirt featuring exposed button-front closures and panel seam construction.</p>
+                        <button className="bg-primary hover:bg-primary/80 text-white w-full h-9 rounded-lg">Adicionar</button>
                     </div>
                 </div>
 
@@ -70,7 +83,20 @@ const ShelfProduct = () => {
                         <p className="text-slate-700 text-xl font-bold">R$ 500,00</p>
                         <p className="text-slate-700 text-base">Faux Suede Mini Skirt</p>
                         <p className="text-slate-700/50 text-xs">A faux suede mini skirt featuring exposed button-front closures and panel seam construction.</p>
-                        <button className="bg-primary text-white w-full h-9 rounded-lg">Adicionar</button>
+                        <button className="bg-primary hover:bg-primary/80 text-white w-full h-9 rounded-lg">Adicionar</button>
+                    </div>
+                </div>
+
+                <div>
+                    <div className="flex flex-col px-4">
+                        <Image className="mx-auto rounded-sm" src="./produto02.png" alt="Vestido feminino" width={308} height={465} />
+                    </div>
+                    <div className="w-56 mx-auto mt-2 flex flex-col gap-2 justify-start">
+                        <Image className="" src="./produtocores2.png" alt="Cores disponiveis para roupa" width={132} height={27} />
+                        <p className="text-slate-700 text-xl font-bold">R$ 320,00</p>
+                        <p className="text-slate-700 text-base">Faux Suede Mini Skirt</p>
+                        <p className="text-slate-700/50 text-xs">A faux suede mini skirt featuring exposed button-front closures and panel seam construction.</p>
+                        <button className="bg-primary hover:bg-primary/80 text-white w-full h-9 rounded-lg">Adicionar</button>
                     </div>
                 </div>
 
@@ -83,33 +109,7 @@ const ShelfProduct = () => {
                         <p className="text-slate-700 text-xl font-bold">R$ 500,00</p>
                         <p className="text-slate-700 text-base">Faux Suede Mini Skirt</p>
                         <p className="text-slate-700/50 text-xs">A faux suede mini skirt featuring exposed button-front closures and panel seam construction.</p>
-                        <button className="bg-primary text-white w-full h-9 rounded-lg">Adicionar</button>
-                    </div>
-                </div>
-
-                <div>
-                    <div className="flex flex-col px-4">
-                        <Image className="mx-auto rounded-sm" src="./produto01.png" alt="Vestido feminino" width={308} height={465} />
-                    </div>
-                    <div className="w-56 mx-auto mt-2 flex flex-col gap-2 justify-start">
-                        <Image className="" src="./produtocores1.png" alt="Cores disponiveis para roupa" width={132} height={27} />
-                        <p className="text-slate-700 text-xl font-bold">R$ 500,00</p>
-                        <p className="text-slate-700 text-base">Faux Suede Mini Skirt</p>
-                        <p className="text-slate-700/50 text-xs">A faux suede mini skirt featuring exposed button-front closures and panel seam construction.</p>
-                        <button className="bg-primary text-white w-full h-9 rounded-lg">Adicionar</button>
-                    </div>
-                </div>
-
-                <div>
-                    <div className="flex flex-col px-4">
-                        <Image className="mx-auto rounded-sm" src="./produto01.png" alt="Vestido feminino" width={308} height={465} />
-                    </div>
-                    <div className="w-56 mx-auto mt-2 flex flex-col gap-2 justify-start">
-                        <Image className="" src="./produtocores1.png" alt="Cores disponiveis para roupa" width={132} height={27} />
-                        <p className="text-slate-700 text-xl font-bold">R$ 500,00</p>
-                        <p className="text-slate-700 text-base">Faux Suede Mini Skirt</p>
-                        <p className="text-slate-700/50 text-xs">A faux suede mini skirt featuring exposed button-front closures and panel seam construction.</p>
-                        <button className="bg-primary text-white w-full h-9 rounded-lg">Adicionar</button>
+                        <button className="bg-primary hover:bg-primary/80 text-white w-full h-9 rounded-lg">Adicionar</button>
                     </div>
                 </div>
 

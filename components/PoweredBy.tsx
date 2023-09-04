@@ -5,7 +5,7 @@ const PoweredBy = () => {
         <div className="container flex items-center px-8 mx-auto justify-center gap-6 bg-black h-12">
             <div>
                 <p className="text-white text-xs">Powered by</p>
-                <a href="https://www.facebook.com/maeztra"><SiVtex size={32} color="white" /></a>
+                <a href="https://vtex.com/br-pt/overview-plataforma/"><SiVtex size={32} color="white" /></a>
             </div>
             <div>
                 <p className="text-white text-xs">Developed by</p>
