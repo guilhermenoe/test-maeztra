@@ -50,7 +50,7 @@ const Brands = () => {
                 <div>
                     <div className="flex gap-5 h-16 bg-slate-200 items-center justify-center w-72 mx-auto rounded-lg">
                         <div>
-                            <Image src="/comma.png" alt="Logo da empresa Maeztra" width={308} height={64} />
+                            <Image src="./comma.png" alt="Logo da empresa Maeztra" width={308} height={64} />
                         </div>
                     </div>
 
@@ -59,7 +59,7 @@ const Brands = () => {
 
                     <div className="flex gap-5 h-16 bg-slate-200 items-center justify-center w-72 mx-auto rounded-lg">
                         <div>
-                            <Image src="/melissa.png" alt="Logo da empresa Maeztra" width={308} height={64} />
+                            <Image src="./melissa.png" alt="Logo da empresa Maeztra" width={308} height={64} />
                         </div>
                     </div>
                 </div>
@@ -68,7 +68,7 @@ const Brands = () => {
 
                     <div className="flex gap-5 h-16 bg-slate-200 items-center justify-center w-72 mx-auto rounded-lg">
                         <div>
-                            <Image src="/forever.png" alt="Logo da empresa Maeztra" width={308} height={64} />
+                            <Image src="./forever.png" alt="Logo da empresa Maeztra" width={308} height={64} />
                         </div>
                     </div>
                 </div>
@@ -76,7 +76,7 @@ const Brands = () => {
                 <div>
                     <div className="flex gap-5 h-16 bg-slate-200 items-center justify-center w-72 mx-auto rounded-lg">
                         <div>
-                            <Image src="/zara.png" alt="Logo da empresa Maeztra" width={308} height={64} />
+                            <Image src="./zara.png" alt="Logo da empresa Maeztra" width={308} height={64} />
                         </div>
                     </div>
 
@@ -85,7 +85,7 @@ const Brands = () => {
                 <div>
                     <div className="flex gap-5 h-16 bg-slate-200 items-center justify-center w-72 mx-auto rounded-lg">
                         <div>
-                            <Image src="/taylor.png" alt="Logo da empresa Maeztra" width={308} height={64} />
+                            <Image src="./taylor.png" alt="Logo da empresa Maeztra" width={308} height={64} />
                         </div>
                     </div>
 

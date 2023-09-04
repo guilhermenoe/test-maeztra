@@ -10,7 +10,7 @@ const PoweredBy = () => {
             <div>
                 <p className="text-white text-xs">Developed by</p>
                 <a href="https://maeztra.com/" target="_blank" rel="noopener noreferrer">
-                    <Image src="/maeztra-Logo-footer.svg" alt="Logo da empresa Maeztra" width={80} height={40} />
+                    <Image src="./maeztra-Logo-footer.svg" alt="Logo da empresa Maeztra" width={80} height={40} />
                 </a>
             </div>
         </div>
